@@ -29,3 +29,25 @@ print(reverse_name)
 website = "https://goole.com"
 slice = slice(8, -4)
 print(website[slice])
+
+#format
+#And many more other stuff
+#Check str.format() python documentations for details
+
+nameVar = "Doot Guy"
+text = "Hello my name is {}"
+text2 = "Hello my name is {0}"
+text3 =  "Hello my name is {name}"
+
+print(text.format(nameVar))
+print(text2.format(nameVar))
+print(text3.format(name=nameVar))
+
+n = 1000
+
+print("The number is {:.3f}".format(n))
+print("The number is {:,}".format(n))
+print("The number is {:b}".format(n))
+print("The number is {:o}".format(n))
+print("The number is {:X}".format(n))
+print("The number is {:E}".format(n))
